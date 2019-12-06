@@ -26,7 +26,7 @@ class Math:
             self.first_number = int(input("Type first number "))
             #second_number as user input
             self.last_number = int(input("Type second number  "))
-            self.do_math()
+            return self.do_math()
         else:
             return "Sorry , command is out of reach"
 
