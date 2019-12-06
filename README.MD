@@ -14,4 +14,4 @@ docker build -t <your_app_name> .
 docker run -it <your_app_name>
 ```
 
-## (-it) means it runs your app in a terminal
+## (-it) means docker runs your app in a terminal
