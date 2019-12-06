@@ -21,11 +21,11 @@ class Math:
             return "Sorry , command is out of reach"
 
 #taking argument as use input 
-argument = input("What you want to do?")
+argument = input("What you want to do?/n")
 #first number as user input
-first_number = int(input("Type first number"))
+first_number = int(input("Type first number/n"))
 #second_number as user input
-second_number = int(input("Type second number"))
+second_number = int(input("Type second number/n"))
 
 #creating a object
 math = Math(argument)
