@@ -9,13 +9,13 @@ class Math:
 
     #do_math function for calculation
     def do_math(self,first_number,last_number):
-        if self.argument.lower() in 'addition':
+        if self.argument.lower() == 'addition' or self.argument.lower() == 'add':
             return first_number+last_number
-        elif self.argument.lower() in 'subtract':
+        elif self.argument.lower() == 'subtract' or self.argument.lower() == 'sub':
             return first_number - last_number
-        elif self.argument.lower() in 'multiply':
+        elif self.argument.lower() == 'multiply':
             return first_number * last_number
-        elif self.argument.lower() in 'divide':
+        elif self.argument.lower() == 'divide':
             return first_number / last_number
         else:
             return "Sorry , command is out of reach"
