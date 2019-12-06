@@ -1,5 +1,7 @@
 # Simple python app with docker
 
+## This app does nothing special but returns calculations
+
 ## Use following commands to build the app
 
 ```docker
